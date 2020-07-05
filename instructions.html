@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Instructions</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Instructions</a>
+<!--     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Details</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a> -->
+  </div>
+
+  <!-- Navbar on small screens -->
+<!--   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div> -->
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-blue w3-center" style="padding:48px 16px">
+      <h1 class="w3-margin w3-jumbo">Instructions</h1> 
+
+<!--   <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button> -->
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-container  w3-center  w3-padding-6">
+      <h2>
+        How to use the Porta-Nap
+    </h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aJ1CJK0W354" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
+  <div class="w3-content">
+    <div style="width:50%; display: inline-block; float:left; margin-right: 10px;">
+      <h1>Components</h1>
+      <ul>
+        <li>The hook attaches to the belt loop in your pants or other objects. With a pair of Porta-Naps, the hook can attach on to the other hook and go around objects like handles.</li>
+        <li>The wedge can be used to hold a sweatshirt string in place while napping. This is the quickest way to start napping if the Porta-Nap is not on the sweatshirt strings prior to napping. Enable a nap</li>
+        <li>The hole can be used to attach the Porta-Nap to sweatshirt strings using a knot in the sweatshirt strings. This is the most convienient use of the Porta-Nap as it is already attached. All you need to do is wrap your sweatshirt string around the Porta-Nap until it supports your head.</li>
+        <li>The NFC chip is used for automating tasks, like setting alarms, or for sharing data, like contact information and links.</li>
+      </ul>
+    </div>
+    
+    
+    <div style="width: 40%; display: inline-block;">
+        <img width="100%" height="100%"
+          src="https://cdn.glitch.com/460e28c1-8a23-4ce2-b945-94058d9afded%2FAdd%20a%20subheading.png?v=1593894913111">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div>
+  <div class="w3-content">
+    <div style="width:30%; display: inline-block; float:left; margin-right: 0px;">
+      <img src="https://cdn.glitch.com/460e28c1-8a23-4ce2-b945-94058d9afded%2FIMG_8438.png?v=1593900065767" width="60%" length="60%">
+<!--       <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i> -->
+    </div>
+
+    <div style="width: 45%; display: inline-block;">
+      <h1>App Settings</h1>
+      <h5 class="w3-padding-8">In the app settings, you can save an alarm and "do not disturb message" before your nap. Whenever your phone is tapped against a Porta-Nap, the app opens and uses your custom settings</h5>
+      <h5 class="w3-padding-8">In advanced settings, you can create your own automated task by resetting the URI on the chip to do a task like opening a different app, enabling a shortcut, or opening a website.</h5>
+      <h5 class="w3-padding-8">If the Porta-Nap does not open the Porta-Nap App, you can reset the Porta-Nap to the original settings</h5>
+    </div>
+  </div>
+</div>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
